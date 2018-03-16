@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="?android:attr/colorPressedHighlight">
+
+
+    <TextView
+        android:id="@+id/tx_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="12"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_number"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="smithfield north"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_name"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="noh"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_posLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_address"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="123456"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_posLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_posLat"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="1hjsbj"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/tx_banking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_posLng"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_bonus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_banking"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="asgaj"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_bonus"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="north"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_contract_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_status"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="asahgfv"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/tx_bike_stands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_contract_name"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="nohgsvsh"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/tx_available_bike_stands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_bike_stands"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="nahgcath"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_available_bikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_available_bike_stands"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="sahgsh"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tx_last_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_available_bikes"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="jah"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
